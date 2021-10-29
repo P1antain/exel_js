@@ -35,7 +35,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: 'assets/exel.html',
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd,
